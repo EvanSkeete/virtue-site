@@ -1,0 +1,34 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.marketing-image-container {
+  background-image: url(../assets/blue-curve.svg);
+  background-size: cover;
+  background-color: #fdfdfd;
+}
+
+.marketing-image {
+  width: 60%;
+  max-width: 800px;
+}
+
+@include media-breakpoint-up(sm) {
+  .marketing-image {
+    width: 100%;
+  }
+}
+
+.coming-soon {
+  width: 300px;
+  height: 30px;
+  background: #d4bf98;
+  position: absolute;
+  top: 42px;
+  left: -65px;
+  color: #7d7d7d;
+  transform: rotate(-35deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  opacity: 0.9;
+}

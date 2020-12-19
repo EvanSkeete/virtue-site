@@ -1,0 +1,16 @@
+{
+  "name": "virtue-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass sass/index.scss css/index.css",
+    "watch": "sass --watch sass/index.scss:css/index.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1"
+  }
+}
