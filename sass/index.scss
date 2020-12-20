@@ -9,9 +9,11 @@
 .marketing-image {
   width: 60%;
   max-width: 800px;
+  object-fit: contain;
+  height: 600px;
 }
 
-@include media-breakpoint-up(sm) {
+@include media-breakpoint-up(xs) {
   .marketing-image {
     width: 100%;
   }
