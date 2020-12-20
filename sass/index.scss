@@ -4,19 +4,14 @@
   background-image: url(../assets/blue-curve.svg);
   background-size: cover;
   background-color: #fdfdfd;
+  margin-top: -1px;
 }
 
 .marketing-image {
-  width: 60%;
+  width: 100%;
   max-width: 800px;
+  max-height: 600px;
   object-fit: contain;
-  height: 600px;
-}
-
-@include media-breakpoint-up(xs) {
-  .marketing-image {
-    width: 100%;
-  }
 }
 
 .coming-soon {
