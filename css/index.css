@@ -8267,7 +8267,8 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 body {
-  color: #4c5454; }
+  color: #4c5454;
+  background-color: #fdfdfd; }
 
 h1, .h1,
 h2,
