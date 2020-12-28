@@ -1,5 +1,28 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+body {
+  color: #4c5454;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #bfacaa;
+}
+
+.btn-primary {
+  background-color: #30a3d9;
+  border-color: #30a3d9;
+}
+
+.btn-success {
+  background-color: #57a773;
+  border-color: #57a773;
+}
+
 .marketing-image-container {
   background-image: url(../assets/blue-curve.svg);
   background-size: cover;
@@ -14,14 +37,74 @@
   object-fit: contain;
 }
 
+.intro-container {
+  display: flex;
+  justify-content: center;
+}
+
+.intro-content {
+  max-width: 800px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.download-cta {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-container {
+  margin-left: 32px;
+  margin-right: 32px;
+
+  .card {
+    width: 18rem;
+
+    img {
+      height: 128px;
+      object-fit: cover;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    .card {
+      flex: 1;
+      width: 100%;
+    }
+  }
+}
+
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+
+.email-sign-up-container {
+  .card {
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 100%;
+    max-width: 736px;
+  }
+}
+
+.social-container {
+  a {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+
 .coming-soon {
   width: 300px;
   height: 30px;
-  background: #d4bf98;
+  background: #bfacaa;
   position: absolute;
   top: 42px;
   left: -65px;
-  color: #7d7d7d;
+  color: #4c5454;
   transform: rotate(-35deg);
   display: flex;
   justify-content: center;
