@@ -1,5 +1,7 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
+
 body {
   color: #4c5454;
   background-color: #fdfdfd;
@@ -12,16 +14,23 @@ h4,
 h5,
 h6 {
   color: #bfacaa;
+  font-family: "Raleway";
 }
 
 .btn-primary {
-  background-color: #30a3d9;
-  border-color: #30a3d9;
+  background-color: rgb(48, 163, 217);
+  border-color: rgb(48, 163, 217);
 }
 
 .btn-success {
   background-color: #57a773;
   border-color: #57a773;
+}
+
+.navbar-brand {
+  margin-top: 64px;
+  margin-bottom: 96px;
+  margin-right: 0;
 }
 
 .marketing-image-container {
@@ -33,8 +42,8 @@ h6 {
 
 .marketing-image {
   width: 100%;
-  max-width: 800px;
-  max-height: 600px;
+  max-width: 9600px;
+  max-height: 720px;
   object-fit: contain;
 }
 
@@ -52,6 +61,7 @@ h6 {
 .download-cta {
   margin-left: auto;
   margin-right: auto;
+  color: #00a5d9;
 }
 
 .card-container {
@@ -96,20 +106,4 @@ h6 {
     margin-left: 8px;
     margin-right: 8px;
   }
-}
-
-.coming-soon {
-  width: 300px;
-  height: 30px;
-  background: #bfacaa;
-  position: absolute;
-  top: 42px;
-  left: -65px;
-  color: #4c5454;
-  transform: rotate(-35deg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 16px;
-  opacity: 0.9;
 }

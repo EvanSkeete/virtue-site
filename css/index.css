@@ -4,6 +4,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -8281,7 +8282,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  color: #bfacaa; }
+  color: #bfacaa;
+  font-family: "Raleway"; }
 
 .btn-primary {
   background-color: #30a3d9;
@@ -8291,6 +8293,11 @@ h6,
   background-color: #57a773;
   border-color: #57a773; }
 
+.navbar-brand {
+  margin-top: 64px;
+  margin-bottom: 96px;
+  margin-right: 0; }
+
 .marketing-image-container {
   background-image: url(../assets/blue-curve.svg);
   background-size: cover;
@@ -8299,8 +8306,8 @@ h6,
 
 .marketing-image {
   width: 100%;
-  max-width: 800px;
-  max-height: 600px;
+  max-width: 9600px;
+  max-height: 720px;
   object-fit: contain; }
 
 .intro-container {
@@ -8314,7 +8321,8 @@ h6,
 
 .download-cta {
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  color: #00a5d9; }
 
 .card-container {
   margin-left: 32px;
@@ -8344,20 +8352,5 @@ h6,
 .social-container a {
   margin-left: 8px;
   margin-right: 8px; }
-
-.coming-soon {
-  width: 300px;
-  height: 30px;
-  background: #bfacaa;
-  position: absolute;
-  top: 42px;
-  left: -65px;
-  color: #4c5454;
-  transform: rotate(-35deg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 16px;
-  opacity: 0.9; }
 
 /*# sourceMappingURL=index.css.map */
