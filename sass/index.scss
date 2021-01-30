@@ -2,9 +2,16 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
 
+html {
+  display: flex;
+  justify-content: center;
+  background-color: #30a3d9;
+}
+
 body {
   color: #4c5454;
   background-color: #fdfdfd;
+  max-width: 2000px;
 }
 
 h1,
